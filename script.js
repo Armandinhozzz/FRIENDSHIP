@@ -7,7 +7,7 @@ function atualizarContador() {
   const diferenca = alvo - agora;
 
   if (diferenca <= 0) {
-    document.getElementById("contador").textContent = "🎉 Chegou o aniversário!";
+    document.getElementById("contador").textContent = "🎉 FELIZ ANIVERSARIOOOOOOOOOOOOOOOO TE AMO PARABENS BEIJO!";
     clearInterval(intervaloContador);
     return;
   }
@@ -31,7 +31,14 @@ atualizarContador();
 const fotos = [
   "imagens/Fuji1.png",
   "imagens/Fuji2.png",
-  "imagens/Fuji3.png"
+  "imagens/Fuji3.png",
+  "imagens/Fuji4.png",
+  "imagens/Fuji5.png",
+  "imagens/Fuji6.png",
+  "imagens/Fuji7.png",
+  "imagens/Fuji8.png",
+  "imagens/Fuji9.png",
+  "imagens/Fuji10.png"
 ];
 
 let fotoAtual = 0;

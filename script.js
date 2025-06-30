@@ -2,7 +2,7 @@
 
 function atualizarContador() {
   const agora = new Date();
-  const alvo = new Date("2025-06-30T12:00:00"); // Data alvo
+  const alvo = new Date("2025-06-30T06:00:00"); // Data alvo
 
   const diferenca = alvo - agora;
 
